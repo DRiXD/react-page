@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import HoverButton from './Buttons/HoverButton.js';
+import ButtonPane from './Buttons/ButtonPane.js';
 
 function App() {
   return (
@@ -9,8 +9,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p> Hello World! </p>
-        <HoverButton></HoverButton>
+        <ButtonPane></ButtonPane>
       </header>
+      <body>
+      </body>
     </div>
   );
 }

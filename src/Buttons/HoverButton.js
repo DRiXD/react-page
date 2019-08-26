@@ -1,9 +1,9 @@
 import React from 'react';
 import './HoverButton.css';
 
-function HoverButton(){
+function HoverButton(props){
     return(
-        <button className="HoverButton"> A Button! </button>
+            <button>{props.name}</button>
     );
 }
 
