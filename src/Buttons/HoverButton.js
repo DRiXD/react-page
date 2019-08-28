@@ -3,7 +3,11 @@ import './HoverButton.css';
 
 function HoverButton(props){
     return(
-            <button>{props.name}</button>
+        <div>
+            <input type='image' src={props.src} alt='https://www.computerhope.com/jargon/e/error.gif'/>
+            {/* <button img={props.image} >{props.name}</button> */}
+            <div> {props.text} </div>
+        </div>    
     );
 }
 
