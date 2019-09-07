@@ -6,7 +6,7 @@ function HoverButton(props){
         <div>
             <input type='image' src={props.src} alt='https://www.computerhope.com/jargon/e/error.gif'/>
             {/* <button img={props.image} >{props.name}</button> */}
-            <div> {props.text} </div>
+            <div className='infoText'> {props.text} </div>
         </div>    
     );
 }
