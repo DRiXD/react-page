@@ -4,7 +4,7 @@ import './infoPane.css';
 
 function InfoPane() {
   return (
-    <div class="infoPane">
+    <div className="infoPane">
         <img alt=''></img>
         <h1>Hi i'm Denis Reibel</h1>
         <p> Lirum Larum Löffelstiel </p>

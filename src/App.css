@@ -10,6 +10,8 @@
 
 .App-header {
   background-image: url('./icons/background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

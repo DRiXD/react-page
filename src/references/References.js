@@ -8,9 +8,9 @@ function openInsta(){
 
 function References() {
   return (
-    <div class='references'>
+    <div className='references'>
         <input type='image' src={instaIcon} alt='' onClick={openInsta} />
-        <button type='button' name='insta'>denisr_20</button>
+        <button type='button' className='insta'>denisr_20</button>
     </div>
   );
 }

@@ -13,8 +13,6 @@ function App() {
         <ButtonPane></ButtonPane>
         <References></References>
       </header>
-      <body>
-      </body>
     </div>
   );
 }

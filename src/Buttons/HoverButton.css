@@ -10,4 +10,15 @@ button:hover {
     opacity: 0;
 }
 
-input:hover ~ .infoText{opacity: 1;} 
+.infoContainer{
+    opacity:0;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    background-color: white;
+    width: 500px;
+    height: 200px;
+}
+
+input:hover ~ .infoText{opacity: 1;}
+input:hover ~ .infoContainer{opacity: 0.2;}
