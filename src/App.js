@@ -9,7 +9,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <InfoPane></InfoPane>
-        <p> Hello World! </p>
         <ButtonPane></ButtonPane>
         <References></References>
       </header>

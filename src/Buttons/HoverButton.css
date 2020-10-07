@@ -22,3 +22,33 @@ button:hover {
 
 input:hover ~ .infoText{opacity: 1;}
 input:hover ~ .infoContainer{opacity: 0.2;}
+
+.dev {
+    position: absolute;
+    top: 60%;
+    left: 40%;
+}
+
+.travel {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+}
+
+.film {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+.sport {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+}
+
+.scout {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+}
